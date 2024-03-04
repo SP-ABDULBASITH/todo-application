@@ -1,0 +1,10 @@
+
+get http://localhost:3000/todos/category=HOME
+###
+
+put http://localhost:3000/todos/8
+Content-Type: application/json
+
+{
+"priority" : "HIGH"
+}
